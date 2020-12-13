@@ -1,2 +1,1 @@
-# DarthCoder.github.io
-Curiosity for learning
+# Curiosity for learning
