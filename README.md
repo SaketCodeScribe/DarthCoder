@@ -1,1 +1,1 @@
-# This website contains my day to day competetive coding questions
+# It contains my day to day competitive coding questions
