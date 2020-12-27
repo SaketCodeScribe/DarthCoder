@@ -5,7 +5,7 @@
 }
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../overall_logo.png);
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
 	position:absolute;
     width:100%; 
     height:100%; 
@@ -142,4 +142,65 @@ nav .logo img{
 nav .main{
 	max-width: 1200px;
 	margin: auto;
+}
+
+.algo{
+	position: relative;
+	padding: 50px 15px 15px 80px;
+	text-align: left;
+}
+
+.algo .text-head{
+	position: absolute;
+	font-weight: 800;
+    bottom: 68px; 
+    left: 97px;
+}
+
+.algo .text-head a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.content-table{
+  border-collapse: collapse;
+  margin-left: 40px;
+  font-size: 1em;
+  min-width: 1000px;
+  border-radius: 5px 5px 40px 5px;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.content-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td{
+  padding: 20px 15px;
+}
+
+.content-table tbody tr{
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even){
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd){
+  background-color: white;
+}
+
+.content-table tbody tr:last-of-type{
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row{
+  font-weight: bold;
+  color: #009879;
 }
