@@ -353,3 +353,6 @@ section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
 	background: #ff568c;
 }
 
+section .message-success{
+	z-index: 2000;
+}
