@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Darth_Coder.github.io</title>
-	<link rel="stylesheet" type="text/css" href="css/Contact.css">
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
@@ -10,7 +11,7 @@
 		<nav>
 			<div class="main">
 				<div class="logo">
-					<img src="darth_logo.png">
+					<img src="images/darth_logo.png">
 				</div>
 				<input type="checkbox" id="check">
 				<label for="check" class="checkbtn">
@@ -32,56 +33,56 @@
 					<ul class="info">
 						<li>
 							<span>
-								<img src="location.png"></span>
+								<img src="images/location.png"></span>
 							<span>India</span>
 						</li>
 						<li>
 							<span>
-								<img src="email.png"></span>
+								<img src="images/email.png"></span>
 							<span>saket0565@gmail.com</span>
 						</li>
 						<li>
 							<span>
-								<img src="phone-call.png"></span>
+								<img src="images/phone-call.png"></span>
 							<span>+91 **********</span>
 						</li>
 					</ul>	
 					<ul class="sci">
 						<li>
-							<a href="#"><img src="linkedin.png"></a>
+							<a href="https://www.linkedin.com/in/saket-suman-530549173/" target="_blank"><img src="images/linkedin.png"></a>
 						</li>
 						<li>
-							<a href="#"><img src="github.png"></a>
+							<a href="https://github.com/saket0565" target="_blank"><img src="images/github.png"></a>
 						</li>
 						<li>
-							<a href="#"><img src="facebook.png"></a>
+							<a href="https://www.facebook.com/saket.suman.355" target="_blank"><img src="images/facebook.png"></a>
 						</li>
 					</ul>
 				</div>
 				<div class="contactForm">
 					<h2>Send a Message</h2>
-					<div class="formBox">
+					<form method="post" action="contact-form.php" class="formBox">
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="text" name="firstname" required>
 							<span>First Name</span>
 						</div>
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="text" name="lastname" required>
 							<span>Last Name</span>
 						</div>
 						<div class="inputBox w50">
-							<input type="text" name="" required>
+							<input type="email" name="email" required>
 							<span>Email Address</span>
 						</div>
 						<div class="inputBox w100">
-							<textarea name="" required></textarea>
+							<textarea name="comment" required></textarea>
 							<span>Write your message here...</span>
 						</div>
 						<div class="inputBox w100">
-							<input type="submit" value="send">
+							<input type="submit" name="submit" value="send">
 						</div>
-					</div>
-				</div>
+					</form>
+      			</div>
 			</div>
 		</section>
 	</header>
