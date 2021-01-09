@@ -5,7 +5,7 @@
 }
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+	background-image: url(../images/overall_logo.png);
 	position:absolute;
     width:100%; 
     height:100%; 
@@ -170,6 +170,7 @@ nav .main{
   border-radius: 5px 5px 40px 5px;
   overflow: hidden;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
 }
 
 .content-table thead tr{
