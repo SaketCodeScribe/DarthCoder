@@ -18,7 +18,6 @@
 				</label>
 				<ul>
 					<li><a href="Index.html">Home</a></li>
-					<li><a href="Explore.html">Explore</a></li>
 					<li class="active"><a href="Problems.html">Problems</a></li>
 					<li><a href="About.html">About</a></li>
 					<li><a href="Contact.html">Contact</a></li>
@@ -47,7 +46,18 @@
 				$result = $conn-> query($sql);
 				if($result-> num_rows>0){
 					while($row = $result-> fetch_assoc()){
-						echo "<tr><td>".$row["id"]."</td><td><a href='".$row["link"]."' target='_blank'>".$row["title"]."</a></td><td>".$row["diff"]."</td><td><a href='".$row["sol"]."' target='_blank'>Solution</a></td></tr>";
+						if($row["diff"]=='Easy'){
+							echo "<tr><td>".$row["id"]."</td><td><a href='".$row["link"]."' target='_blank'>".$row["title"]."</a></td><td><img src='images/easy.png' alt='Difficulty' style='width:30%;'>"."</td><td><a href='".$row["sol"]."' target='_blank'><img src='images/solution.png' alt='Solution' style='width:30%;'></a></td></tr>";
+						}
+						else if($row["diff"]=='Medium'){
+							echo "<tr><td>".$row["id"]."</td><td><a href='".$row["link"]."' target='_blank'>".$row["title"]."</a></td><td><img src='images/medium.png' alt='Difficulty' style='width:30%;'>"."</td><td><a href='".$row["sol"]."' target='_blank'><img src='images/solution.png' alt='Solution' style='width:30%;'></a></td></tr>";
+						}
+						else if($row["diff"]=='Hard'){
+							echo "<tr><td>".$row["id"]."</td><td><a href='".$row["link"]."' target='_blank'>".$row["title"]."</a></td><td><img src='images/hard.png' alt='Difficulty' style='width:30%;'>"."</td><td><a href='".$row["sol"]."' target='_blank'><img src='images/solution.png' alt='Solution' style='width:30%;'></a></td></tr>";
+						}
+						else{
+							echo "<tr><td>".$row["id"]."</td><td><a href='".$row["link"]."' target='_blank'>".$row["title"]."</a></td><td>".$row["diff"]."</td><td><a href='".$row["sol"]."' target='_blank'><img src='images/solution.png' alt='Solution' style='width:20%;'></a></td></tr>";
+						}
 					}
 					echo "</table>";
 				}
