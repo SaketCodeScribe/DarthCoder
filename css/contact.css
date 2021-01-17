@@ -2,12 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  	font-family: "Segoe UI",Arial,sans-serif;
 	font-stretch: Century Gothic;
 }
 
 nav{
 	background: #000000;
-	height: 65px;
+	height: 60px;
 	width: 100%;
 }
 
@@ -23,43 +24,6 @@ nav{
 
 #check{
 	display: none;
-}
-
-@media (max-width: 952px){
-	.logo{
-		font-size: 30px;
-		padding-left: 15px;
-	}
-	
-	nav ul{
-		float: right;
-		list-style-type: none; 
-		margin-top: 20px;
-	}
-
-	nav ul li{
-		display: flex;
-	    flex-direction: row;
-	    align-items: center;
-	}
-
-	nav ul li a{
-		text-decoration: none;
-		color: #fff;
-		padding: 5px 20px;
-		border: transparent;
-		transition: 0.6s ease;
-	}
-
-	nav ul li a:hover{
-		background-color: #fff;
-		color: blue;
-	}
-
-	nav ul li .active a{
-		background-color: #fff;
-		color: blue;
-	}
 }
 
 @media (max-width: 858px){
@@ -99,7 +63,8 @@ nav{
 
 nav ul{
 	float: right;
-	list-style-type: none; 
+	margin-right: -100px;
+	list-style-type: none;
 	margin-top: 20px;
 }
 
@@ -127,9 +92,10 @@ nav ul li.active a{
 
 nav .logo img{
 	float: left;
-	margin-top: 10px;
 	width: 50px;
 	height: auto;
+	margin-top: 6px;
+	margin-left: -150px;
 }
 
 nav .main{
@@ -142,7 +108,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 91.84vh;
 	background: #112d42
 }
 
@@ -173,7 +139,7 @@ section .container .contactinfo{
 	z-index: 100;
 	padding: 40px;
 	margin-left: -32rem;
-	margin-top: 4.75rem;
+	margin-top: 5.4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -260,18 +226,19 @@ section .container .contactForm{
 	position: absolute;
 	padding: 70px 50px;
 	background: white;
-	margin-left: -24.2rem;
+	margin-left: -23.6rem;
 	margin-top: -15.9rem;
 	padding-left: 250px;
 	width: 900px;
-	height: 82%;
+	height: 75%;
 	box-shadow: 0 50px 50px rgba(0,0,0,0.5);
 }
 
 section .container .contactForm h2{
 	color:	#0f3959;
 	font-size: 24px;
-	margin-left: 1.1rem;
+	margin-top: -1rem;
+	margin-left: 0.8rem;
 	font-weight: 500;
 }
 
@@ -285,8 +252,7 @@ section .container .contactForm .formBox{
 
 section .container .contactForm .formBox .inputBox{
 	position: relative;
-	margin-left: 1.1rem;
-	margin-bottom: 0 0 35px 0;
+	margin-left: 0.8rem;
 }
 
 section .container .contactForm .formBox .inputBox.w50{
