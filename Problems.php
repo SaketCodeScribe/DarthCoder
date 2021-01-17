@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Darth_Coder.github.io</title>
+	<title>Problems</title>
 	<link rel="stylesheet" type="text/css" href="css/problems.css">
 	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
@@ -10,7 +10,7 @@
 		<nav>
 			<div class="main">
 				<div class="logo">
-					<img src="images/darth_logo.png">
+					<a href="Index.html"><img src="images/darth_logo.png" alt='logo'></a></li>
 				</div>
 				<input type="checkbox" id="check">
 				<label for="check" class="checkbtn">
@@ -25,7 +25,7 @@
 			</div>
 		</nav>
 		<div class="algo">
-			<a href="Problems.php"><img src="images/iridescent.png" alt="Algorithms" style="width:10%;"></a>
+			<a href="Problems.php"><img src="images/rounded-rectangle.png" alt="Algorithms" style="width:10%;"></a>
 			<div class="text-head"><a href="Problems.php">Algorithms</a></div>
 		</div>
 		<table class="content-table">
