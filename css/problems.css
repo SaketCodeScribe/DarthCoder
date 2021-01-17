@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+  	font-family: "Segoe UI",Arial,sans-serif;
 	font-stretch: Century Gothic;
 }
 
@@ -13,7 +14,7 @@ header{
 
 nav{
 	background: #000000;
-	height: 65px;
+	height: 60px;
 	width: 100%;
 }
 
@@ -29,43 +30,6 @@ nav{
 
 #check{
 	display: none;
-}
-
-@media (max-width: 952px){
-	.logo{
-		font-size: 30px;
-		padding-left: 15px;
-	}
-	
-	nav ul{
-		float: right;
-		list-style-type: none; 
-		margin-top: 20px;
-	}
-
-	nav ul li{
-		display: flex;
-	    flex-direction: row;
-	    align-items: center;
-	}
-
-	nav ul li a{
-		text-decoration: none;
-		color: #fff;
-		padding: 5px 20px;
-		border: transparent;
-		transition: 0.6s ease;
-	}
-
-	nav ul li a:hover{
-		background-color: #fff;
-		color: blue;
-	}
-
-	nav ul li .active a{
-		background-color: #fff;
-		color: blue;
-	}
 }
 
 @media (max-width: 858px){
@@ -105,7 +69,8 @@ nav{
 
 nav ul{
 	float: right;
-	list-style-type: none; 
+	margin-right: -100px;
+	list-style-type: none;
 	margin-top: 20px;
 }
 
@@ -133,9 +98,10 @@ nav ul li.active a{
 
 nav .logo img{
 	float: left;
-	margin-top: 10px;
 	width: 50px;
 	height: auto;
+	margin-top: 6px;
+	margin-left: -150px;
 }
 
 nav .main{
@@ -145,15 +111,15 @@ nav .main{
 
 .algo{
 	position: relative;
-	padding: 50px 15px 15px 80px;
+	padding: 50px 15px 15px 100px;
 	text-align: left;
 }
 
 .algo .text-head{
 	position: absolute;
 	font-weight: 800;
-    bottom: 68px; 
-    left: 97px;
+    bottom: 82px; 
+    left: 130px;
 }
 
 .algo .text-head a{
@@ -163,7 +129,8 @@ nav .main{
 
 .content-table{
   border-collapse: collapse;
-  margin-left: 40px;
+  margin-left: 100px;
+  margin-top: 60px;
   font-size: 1em;
   min-width: 1000px;
   border-radius: 5px 5px 5px 5px;
@@ -173,7 +140,7 @@ nav .main{
 }
 
 .content-table thead tr{
-  background-color: #009879;
+  background-color: #0f3959;
   color: #ffffff;
   text-align: left;
   font-weight: bold;
@@ -202,13 +169,13 @@ nav .main{
 }
 
 .content-table tbody tr:last-of-type{
-  	border-bottom: 2px solid #009879;
+  	border-bottom: 2px solid #03a9f4;
 }
 
 .content-table tbody tr.active-row a{
-  	color: #009879;
+  	color: #03a9f4;
 }
 
 .content-table tbody tr.active-row{
-  	color: #009879;
+  	color: #03a9f4;
 }
