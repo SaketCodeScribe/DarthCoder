@@ -18,7 +18,7 @@
 				</label>
 				<ul>
 					<li><a href="Index.html">Home</a></li>
-					<li class="active"><a href="Problems.html">Problems</a></li>
+					<li class="active"><a href="Problems.php">Problems</a></li>
 					<li><a href="About.html">About</a></li>
 					<li><a href="Contact.html">Contact</a></li>
 				</ul>
