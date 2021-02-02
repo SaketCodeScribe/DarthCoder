@@ -138,8 +138,8 @@ section .container .contactinfo{
 	background: #0f3959;
 	z-index: 100;
 	padding: 40px;
-	margin-left: -32rem;
-	margin-top: 5.4rem;
+	margin-left: -26rem;
+	margin-top: 4.4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -226,8 +226,8 @@ section .container .contactForm{
 	position: absolute;
 	padding: 70px 50px;
 	background: white;
-	margin-left: -23.6rem;
-	margin-top: -15.9rem;
+	margin-left: -18.6rem;
+	margin-top: -12.6rem;
 	padding-left: 250px;
 	width: 900px;
 	height: 75%;
