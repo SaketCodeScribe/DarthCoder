@@ -6,10 +6,10 @@
 }
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/about_background1.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/about_background1.jpg);
 	position:absolute;
     width:100%;
-    height: 100%;
+    height: 113%;
     background-size:cover;
 }
 
@@ -152,8 +152,8 @@ nav .main{
 .avatar img{
 	width: 250px;
 	height: 250px;
-	padding-top: 1.5rem;
-	padding-bottom: 0.5rem;
+	padding-top: 2.5rem;
+	padding-bottom: 0.25rem;
 	vertical-align: middle;
 	border-radius: 50%
 }
@@ -168,12 +168,12 @@ p{
 
 .btn{
 	display: inline-block;
-	padding: 1rem 5rem;
+	padding: 0.5rem 1.87rem;
 	background: white;
 	font-size: 1rem;
 	text-decoration: none;
 	color: #398f51;
-	border-radius: 5px;
+	border-radius: 4px;
 	transition: background 0.6s;
 	margin-bottom: 1rem;
 }
