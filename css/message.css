@@ -108,7 +108,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 91.84vh;
 	background: #112d42
 }
 
@@ -124,8 +124,13 @@ section:before{
 
 section .message-success{
 	position: absolute;
+	padding: 0.5rem 1.87rem;
 	top: 50%;
 	left: 50%;
+	background: lightgreen;
+	color: green;
+	border-radius: 4px;
+	opacity: 0.75;
 	transform: translate(-50%, -50%);
 	z-index: 300;
 }
